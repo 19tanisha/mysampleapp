@@ -10,7 +10,7 @@ def mul1():
 
 print(mul1())
 
-def isPal():
+def Pal():
     global list2
     for w in list1:
         w = str(w)
@@ -19,7 +19,7 @@ def isPal():
           list2.append(int(h))
     return list2
 
-print(max(isPal()))
+print(max(Pal()))
 
    
    
